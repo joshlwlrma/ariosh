@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hyscss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins&display=swap" rel="stylesheet">
+    <title>TUTORIALS</title>
+
+</head>
+
+<body bgcolor="#0a0a10">
+
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href ="index.html">HOME</a></li>
+                    <li><a href ="TUTORIALS.html">TUTORIALS</a></li>
+                    <li><a href ="ABOUT.html">ABOUT</a></li>
+                </ul>
+            </nav>
+    </div>
+
+    <body>
+   
+        <center>
+        <div class="col">  
+            <div class="card card1" onclick="displayVideo('VIDEO_ID_1')">
+                <h2>HTML</h2>
+            </div>
+            
+            <div class="card card2" onclick="displayVideo('VIDEO_ID_2')">
+                <h2>JAVASCRIPT</h2>
+            </div>
+
+            <div class="card card3" onclick="displayVideo('VIDEO_ID_3')">
+                <h2>CSS</h2>
+            </div>
+
+            <div class="card card4" onclick="displayVideo('VIDEO_ID_4')">
+                <h2>C++</h2>
+            </div>
+            
+           
+            <div id="videoContainer"></div>
+            </center>
+        
+        <script src="jshys.js"></script>
+    </body>
+</html>
